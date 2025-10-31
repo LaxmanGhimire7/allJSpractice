@@ -30,3 +30,21 @@
 // obj[uniqueId] = "07";
 
 // console.log(obj)
+
+
+// let data = {
+//     uid: 1,
+//     name: "Hari",
+//     caste:"Ghimire",
+//     pass: "hhjjds*&6766%$^",
+// };
+
+
+
+// const uuid = Symbol("uid");
+// data[uuid]=("777")
+
+// const newName = Symbol("name");
+// data[newName]= ("Laxman")
+
+
