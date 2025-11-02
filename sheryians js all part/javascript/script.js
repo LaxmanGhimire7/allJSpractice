@@ -48,3 +48,22 @@
 // data[newName]= ("Laxman")
 
 
+// let arr = [1,2,3,4];
+// let arr1 = arr;
+
+// arr1.pop();
+
+// console.log(arr)
+
+
+
+// let a = 25;
+// a = "Lakxh0";
+// a = [];
+// a= null;
+// a = undefined;
+// console.log(a)
+
+
+
+
