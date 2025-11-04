@@ -58,14 +58,42 @@
 //12. Ask user for words until they type “stop”. Count how many times they typed “yes”
 //Loop until "stop" is typed. Count "yes".
 
-let count = 0;
+// let count = 0;
 
-let word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
+// let word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
 
-while (word !== "stop") {
-  if (word === "yes") count++;
-  word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
+// while (word !== "stop") {
+//   if (word === "yes") count++;
+//   word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
   
-}
+// }
 
-console.log(count);
+// console.log(count);
+
+
+// 13. Print numbers divisible by 7 from 1 to 50
+//Use modulo % and loop.
+
+// for (let i=1; i<51; i++){
+//   if(i%7 === 0){
+//     console.log(i)
+//   }
+// }
+
+
+//14. Sum of all odd numbers from 1 to 30
+// Add only odd numbers. Print final sum.
+
+let sum = 0;
+
+for (let i=1; i<31; i++){
+  if(i%2 !== 0){
+    sum = sum + i;
+  };
+  
+};
+
+console.log(sum);
+
+
+
