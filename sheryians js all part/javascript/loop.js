@@ -37,20 +37,35 @@
 // Ask user’s age and check if eligible to vote
 // If age >= 18 → “Eligible”, else → “Not eligible”
 
-let age = prompt("What's your age?");
+// let age = prompt("What's your age?");
 
-if (age === null) {
-  console.log("You cancelled!");
-} else {
-  if (age.trim() === "") {
-    console.log("Enter anything dont keep null value");
-  } else {
-    age = Number(age);
+// if (age === null) {
+//   console.log("You cancelled!");
+// } else {
+//   if (age.trim() === "") {
+//     console.log("Enter anything dont keep null value");
+//   } else {
+//     age = Number(age);
 
-    if (age < 0) {
-      console.log("age cant be in negative value");
-    }else if (age >= 18) {
-      console.log("You can vote");
-    } else console.log("Cant vote");
-  }
+//     if (age < 0) {
+//       console.log("age cant be in negative value");
+//     }else if (age >= 18) {
+//       console.log("You can vote");
+//     } else console.log("Cant vote");
+//   }
+// }
+
+//12. Ask user for words until they type “stop”. Count how many times they typed “yes”
+//Loop until "stop" is typed. Count "yes".
+
+let count = 0;
+
+let word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
+
+while (word !== "stop") {
+  if (word === "yes") count++;
+  word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
+  
 }
+
+console.log(count);
