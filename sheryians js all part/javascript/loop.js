@@ -65,11 +65,10 @@
 // while (word !== "stop") {
 //   if (word === "yes") count++;
 //   word = prompt("Tell any word (hint: tell 'stop' to stop this loop....)");
-  
+
 // }
 
 // console.log(count);
-
 
 // 13. Print numbers divisible by 7 from 1 to 50
 //Use modulo % and loop.
@@ -80,20 +79,43 @@
 //   }
 // }
 
-
 //14. Sum of all odd numbers from 1 to 30
 // Add only odd numbers. Print final sum.
 
-let sum = 0;
+// let sum = 0;
 
-for (let i=1; i<31; i++){
-  if(i%2 !== 0){
-    sum = sum + i;
-  };
-  
-};
+// for (let i=1; i<31; i++){
+//   if(i%2 !== 0){
+//     sum = sum + i;
+//   };
 
-console.log(sum);
+// };
 
+// console.log(sum);
 
+// 17. Print only first 3 odd numbers from 1 to 20
+// Use loop. Stop with break after 3 odd prints.
 
+// let count = 0;
+
+// for (let i = 1; i < 21; i++) {
+//   if (count === 3) break;
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//     count++;
+//   }
+// }
+
+// 18. Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+
+let counter = 0;
+
+for (let i = 1; i < 6; i++) {
+  let num = +prompt("Write any natural number");
+
+  if (num > 0) {
+    counter++;
+  }
+}
+console.log(counter);
