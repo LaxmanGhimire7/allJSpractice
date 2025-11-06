@@ -1,4 +1,5 @@
 // 🟠 Medium Level (10 Questions)
+// (Need condition + pattern + counters)
 
 // 1. Print all perfect squares (like 1, 4, 9, 16...) up to 100.
 
@@ -12,11 +13,78 @@
 //     console.log(i)
 // }
 
-
 // 3. Ask user for a number and print from 1 to that number.
 
 // let num = +prompt("Tell any number");
 
 // for(let i =1; i<=num; i++){
 //     console.log(i)
+// };
+
+// 4. Count how many numbers between 1–100 are divisible by 3.
+
+// let count = 0;
+
+// for (let i = 1; i < 101; i++) {
+//   if (i % 3 === 0) {
+//     count++;
+//   }
 // }
+// console.log(count);
+
+// 5. Print numbers from 1–50, but if number is 25, print "Halfway!" instead.
+
+// for (let i=1; i<51; i++){
+//     if(i===25) console.log(`${i} - Halfway`);
+//    else console.log(i)
+// };
+
+// 6. Count how many numbers between 1–50 are not divisible by 2 and 3.
+
+// let count = 0;
+
+// for (let i = 1; i < 51; i++) {
+//   if (i % 2 === 0 && i % 3 === 0) {
+//     count++;
+//   }
+// }
+// console.log(count);
+
+// 7. Print a countdown from 10 to 1 and at the end print "Blast Off!".
+
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+//   if (i <= 1) console.log("Blast Off");
+// }
+
+// 8. Ask user for 5 numbers (prompt), count how many are positive.
+
+// let count = 0;
+
+// for (i = 1; i<6; i++){
+//     let num = +prompt("5 ota num vaan....");
+//     if(num > 0){
+//         count++
+//     };
+// }
+// console.log(count)
+
+
+// 9. Ask user for 5 numbers, find the largest one.
+
+// let largest;
+
+// for (i = 1 ; i<6; i++){
+//     let user = +prompt("Number any 5");
+
+//  if(i === 1){ 
+//     largest = user;
+//  };
+
+//  if(user > largest){
+//     largest = user;
+//  }
+
+
+// }
+// console.log(largest)
