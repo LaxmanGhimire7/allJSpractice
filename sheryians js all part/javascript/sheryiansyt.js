@@ -93,3 +93,19 @@
 // };
 
 // console.log(`The count is: ${count}`);
+
+
+// Break ko question
+
+// Qno.1. Stop at first multiple of 7.
+
+// Write a loop of 1 to 100
+       // . Print each number.
+       // . Stop at the moment it finds the number that is completely divisible by 7.
+
+// for(let i=1; i<101; i++){
+//     if(i%7 === 0){
+//         break;
+//     };
+//     console.log(i)
+// }
