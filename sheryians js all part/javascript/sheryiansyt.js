@@ -14,9 +14,8 @@
 // while(i>0){
 //     console.log(i)
 //     i--;
-    
-// };
 
+// };
 
 // 3. Print even numbers from 1 to 20 using for loop.
 
@@ -34,16 +33,14 @@
 //     }
 // }
 
-
 // let i = 1;
 
 // while(i<16){
 // if(i % 2 !== 0){
 //     console.log(i);
 // };
-//    i++; 
+//    i++;
 // };
-
 
 // 5. Print the multiplication table eg: 5 x 1 = .....
 
@@ -59,7 +56,6 @@
 //     sum += i;
 // };
 // console.log(sum);
-
 
 // 7. Print all the numbers between 1 to 50 that are all divisible by 3;
 
@@ -81,7 +77,6 @@
 //     }
 // }
 
-
 // 9. Count how many numbers between 1 to 100 are divisible by both 3 and 5;
 
 // let count = 0;
@@ -94,18 +89,55 @@
 
 // console.log(`The count is: ${count}`);
 
-
 // Break ko question
 
 // Qno.1. Stop at first multiple of 7.
 
 // Write a loop of 1 to 100
-       // . Print each number.
-       // . Stop at the moment it finds the number that is completely divisible by 7.
+// . Print each number.
+// . Stop at the moment it finds the number that is completely divisible by 7.
 
 // for(let i=1; i<101; i++){
+//  console.log(i)
 //     if(i%7 === 0){
 //         break;
 //     };
-//     console.log(i)
+
 // }
+
+// 2. Continue
+
+// Skip all the number that are divisible by 3 not to stop to skip from 1 to 20;
+
+//  for(let i = 1; i<21; i++){
+//     if(i %3 === 0) continue;
+//     console.log(i)
+//  }
+
+// Print odd no only from 1 to 200 but just keep 5 first value e.g: 1,3,5,7,9
+
+// let count = 0;
+// for (let i = 1; i < 201; i++) {
+//   if (i % 2 === 1) {
+//     count++;
+//     console.log(i);
+//   }
+
+//   if (count === 5) {
+//     break;
+//   }
+// }
+
+
+// let count = 0;
+// let num = 2345644987478945;
+
+// while (num > 0){
+// num = Math.floor(num/10); // yo garnu ko reason divide by 10 garda point ma ni aauna sakxa so Math.floor le if 34.5 aako xa vanye .5 lai hatayera 34 matra baki hunxa
+// count++
+// }
+// console.log(count)    // this is to count the total numbers there = 16
+
+
+
+
