@@ -109,13 +109,13 @@
 // 18. Ask user 5 numbers. Count how many are positive
 // Use loop + condition + counter.
 
-let counter = 0;
+// let counter = 0;
 
-for (let i = 1; i < 6; i++) {
-  let num = +prompt("Write any natural number");
+// for (let i = 1; i < 6; i++) {
+//   let num = +prompt("Write any natural number");
 
-  if (num > 0) {
-    counter++;
-  }
-}
-console.log(counter);
+//   if (num >= 0) {
+//     counter++;
+//   }
+// }
+// console.log(counter);
