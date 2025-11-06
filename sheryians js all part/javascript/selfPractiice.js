@@ -88,3 +88,20 @@
 
 // }
 // console.log(largest)
+
+
+// let bigger;
+
+// for (i = 1 ; i<6; i++){
+//     let deko = +prompt("number de");
+
+//     if(i ===1 ){
+//        bigger = deko;
+//     };
+
+
+//     if(deko > bigger){
+//         bigger = deko;
+//     }
+// }
+// console.log(`The largest number is ${bigger}`)
