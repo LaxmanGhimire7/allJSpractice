@@ -69,7 +69,6 @@
 // }
 // console.log(count)
 
-
 // 9. Ask user for 5 numbers, find the largest one.
 
 // let largest;
@@ -77,7 +76,7 @@
 // for (i = 1 ; i<6; i++){
 //     let user = +prompt("Number any 5");
 
-//  if(i === 1){ 
+//  if(i === 1){
 //     largest = user;
 //  };
 
@@ -85,10 +84,8 @@
 //     largest = user;
 //  }
 
-
 // }
 // console.log(largest)
-
 
 // let bigger;
 
@@ -99,14 +96,11 @@
 //        bigger = deko;
 //     };
 
-
 //     if(deko > bigger){
 //         bigger = deko;
 //     }
 // }
 // console.log(`The largest number is ${bigger}`)
-
-
 
 // let largest = 0;
 
@@ -117,7 +111,6 @@
 //         largest = userInput;
 //     };
 
-
 //     if(userInput > largest){
 //         largest = userInput;
 //     };
@@ -127,28 +120,53 @@
 
 
 
+
 //🔴 Hard / Advanced Logic (10 Questions)
 
 //(Pure loop logic — no arrays, just math + brain use)
 
-// Print all numbers from 1–100 but:
-
-// if divisible by 3 → print "Fizz",
-
-// if divisible by 5 → print "Buzz",
-
-// if both → print "FizzBuzz".
+// 1. Print all numbers from 1–100 but:
+//    if divisible by 3 → print "Fizz",
+//    if divisible by 5 → print "Buzz",
+//    if both → print "FizzBuzz".
 
 
-for(let i = 1; i<101; i++){
+// for(let i = 1; i<101; i++){
 
-    if(i % 3 === 0 && i % 5 === 0){
-        console.log(`${i} - FizzBuzz`);
-    }else if(i % 3 === 0){
-        console.log(`${i} - Fizz`);
-    }else if(i % 5 === 0){
-        console.log(`${i} - Buzz`);
-    }else{
-        console.log(i);
-    }
-}
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(`${i} - FizzBuzz`);
+//     }else if(i % 3 === 0){
+//         console.log(`${i} - Fizz`);
+//     }else if(i % 5 === 0){
+//         console.log(`${i} - Buzz`);
+//     }else{
+//         console.log(i);
+//     }
+// }
+
+
+// 2. Count how many numbers are there;
+
+// let number = 9861833371;
+// let count = 0;
+
+// while(number > 0){
+//     number = Math.floor(number/10);
+//     count++
+// };
+// console.log(count)
+
+
+// 2.  Reverse a number (like 1234 → 4321).
+
+let number = 1234567;
+let reverse = 0;
+
+while(number > 0){
+    let digit = number % 10;
+    reverse = reverse * 10 + digit;
+    number = Math.floor(number/10)
+
+};
+console.log(reverse)
+  
