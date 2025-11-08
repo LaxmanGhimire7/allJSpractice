@@ -105,3 +105,50 @@
 //     }
 // }
 // console.log(`The largest number is ${bigger}`)
+
+
+
+// let largest = 0;
+
+// for(i=1; i<6; i++){
+//     let userInput = +prompt("Tell any natural number..");
+
+//     if(i === 1){
+//         largest = userInput;
+//     };
+
+
+//     if(userInput > largest){
+//         largest = userInput;
+//     };
+// };
+
+// console.log(largest)
+
+
+
+//🔴 Hard / Advanced Logic (10 Questions)
+
+//(Pure loop logic — no arrays, just math + brain use)
+
+// Print all numbers from 1–100 but:
+
+// if divisible by 3 → print "Fizz",
+
+// if divisible by 5 → print "Buzz",
+
+// if both → print "FizzBuzz".
+
+
+for(let i = 1; i<101; i++){
+
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log(`${i} - FizzBuzz`);
+    }else if(i % 3 === 0){
+        console.log(`${i} - Fizz`);
+    }else if(i % 5 === 0){
+        console.log(`${i} - Buzz`);
+    }else{
+        console.log(i);
+    }
+}
