@@ -157,16 +157,41 @@
 // console.log(count)
 
 
-// 2.  Reverse a number (like 1234 → 4321).
+// 3.  Reverse a number (like 1234 → 4321).
 
-let number = 1234567;
-let reverse = 0;
+// let number = 1234567;
+// let reverse = 0;
 
-while(number > 0){
-    let digit = number % 10;
-    reverse = reverse * 10 + digit;
-    number = Math.floor(number/10)
+// while(number > 0){
+//     let digit = number % 10;
+//     reverse = reverse * 10 + digit;
+//     number = Math.floor(number/10)
 
-};
-console.log(reverse)
+// };
+// console.log(reverse)
   
+
+// let number = 123456789;
+// let reverse = 0;
+
+// while(number > 0){
+
+//     let anything = number % 10;
+//     reverse = reverse * 10 + anything;
+//     number = Math.floor(number/10)
+// };
+// console.log(reverse)
+
+
+
+// 4. Find the sum of digits of any number (e.g. 1234 → 1+2+3+4=10).
+
+// let number = 1234567890;
+// let sum = 0;
+
+// while(number > 0){
+//     let singleNumber = number % 10;
+//     sum = sum + singleNumber;
+//     number = Math.floor(number / 10)
+// };
+// console.log(sum);
