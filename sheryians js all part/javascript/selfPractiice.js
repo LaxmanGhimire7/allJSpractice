@@ -244,20 +244,18 @@
 
 //5️⃣ Check if a number is prime
 
-let number = 8;
+let number = 13;
 let isPrime = true;
 
-for (let i = 2; i < number; i++){
+for(let i = 2; i < number; i++){
 
-    if(number % i === 0){
-        isPrime = false;
-        break;
-    }
-
+if( number % i === 0){
+    isPrime = false;
+    break;
 }
-
+}
 if(isPrime){
     console.log("Prime")
 }else{
-    console.log("not prime")
+    console.log("Not prime")
 }
