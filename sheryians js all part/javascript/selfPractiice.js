@@ -195,3 +195,69 @@
 //     number = Math.floor(number / 10)
 // };
 // console.log(sum);
+
+
+
+// 5. Count how many digits are in a given number
+
+// let number = 9861833371;
+// let count = 0;
+
+// while(number > 0){
+//   number = Math.floor(number/10);
+//   count++;
+// };
+// console.log(count);
+
+
+// 6. 3️⃣ Check if a number is palindrome (e.g. 121 → same backward)
+
+// let number = 979;
+// let original = number;
+// let reverse = 0;
+
+// while (number > 0){
+
+//     let digit = number % 10;
+//     reverse = reverse * 10 + digit;
+//     number = Math.floor(number/10);
+// }
+//   if(original === reverse){
+//         console.log(`The number-${reverse} is palindrome.`)
+//     }else{
+
+//       console.log(`The number-${reverse} is not palindrome.`)  
+//     };
+
+
+
+// 7. Find the factorial of a number (e.g. 5! = 1×2×3×4×5)
+
+// let number = 3;
+// let result = 1;
+
+// for(i =1; i<=number; i++){
+//     result = result * i;
+// };
+// console.log(result);
+
+
+//5️⃣ Check if a number is prime
+
+let number = 8;
+let isPrime = true;
+
+for (let i = 2; i < number; i++){
+
+    if(number % i === 0){
+        isPrime = false;
+        break;
+    }
+
+}
+
+if(isPrime){
+    console.log("Prime")
+}else{
+    console.log("not prime")
+}
