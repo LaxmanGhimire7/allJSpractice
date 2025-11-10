@@ -248,52 +248,52 @@
 
 // let count = 0;
 
-// for(let i = 2; i < 200; i++){
-
+// for(let i = 2; i<100; i++){
 //     let isPrime = true;
 
-//     for(let j = 2; j < i; j++){
+//     for(let j = 2; j<i; j++){
 //         if(i % j === 0){
 //             isPrime = false;
 //             break;
 //         }
-//     };
+//     }
 
 //     if(isPrime){
 //         console.log(i);
-//         count++;
+//         count++
 //     }
 //     if(count === 10) break;
 // }
 
 //7️⃣ Fibonacci Series (first 10 terms) eg: 0,1,1,2,3,5,8,13
 
-let a = 0;
-let b= 1;
-console.log(a);
-console.log(b);
+// let a = 0;
+// let b= 1;
+// console.log(a);
+// console.log(b);
 
 
-for (let i = 3; i<11; i++){
+// for (let i = 3; i<11; i++){
     
-    let next = a + b;
-    console.log(next);
+//     let next = a + b;
+//     console.log(next);
 
-    a = b;
-    b = next;
-}
+//     a = b;
+//     b = next;
+// }
 
 
 
 // 8️⃣ Reverse Triangle Pattern;
 
-// let num = 5;
+let num = 5;
 
-// for (i = num; i > 0; i--) {
-//   let star = "";
 
-//   for (let j = 1; j <= i; j++) {
-//     star = star + "*";
-//   }
-//   console.log(star);
-// }
+for (let i = num; i>0; i--){
+
+    let star = "";
+    for(let j =1 ; j<=i; j++ ){
+   star = star + "*"
+    }
+    console.log(star)
+}
