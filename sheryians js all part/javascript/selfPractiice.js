@@ -118,9 +118,6 @@
 
 // console.log(largest)
 
-
-
-
 //🔴 Hard / Advanced Logic (10 Questions)
 
 //(Pure loop logic — no arrays, just math + brain use)
@@ -129,7 +126,6 @@
 //    if divisible by 3 → print "Fizz",
 //    if divisible by 5 → print "Buzz",
 //    if both → print "FizzBuzz".
-
 
 // for(let i = 1; i<101; i++){
 
@@ -144,7 +140,6 @@
 //     }
 // }
 
-
 // 2. Count how many numbers are there;
 
 // let number = 9861833371;
@@ -155,7 +150,6 @@
 //     count++
 // };
 // console.log(count)
-
 
 // 3.  Reverse a number (like 1234 → 4321).
 
@@ -169,7 +163,6 @@
 
 // };
 // console.log(reverse)
-  
 
 // let number = 123456789;
 // let reverse = 0;
@@ -181,8 +174,6 @@
 //     number = Math.floor(number/10)
 // };
 // console.log(reverse)
-
-
 
 // 4. Find the sum of digits of any number (e.g. 1234 → 1+2+3+4=10).
 
@@ -196,8 +187,6 @@
 // };
 // console.log(sum);
 
-
-
 // 5. Count how many digits are in a given number
 
 // let number = 9861833371;
@@ -209,27 +198,23 @@
 // };
 // console.log(count);
 
-
 // 6. 3️⃣ Check if a number is palindrome (e.g. 121 → same backward)
 
-// let number = 979;
+// let number = 111;
 // let original = number;
 // let reverse = 0;
 
-// while (number > 0){
+// while(number > 0){
 
 //     let digit = number % 10;
 //     reverse = reverse * 10 + digit;
 //     number = Math.floor(number/10);
+// };
+// if(original === reverse){
+//     console.log(`The ${original} & ${reverse} is palindrome.`)
+// }else{
+//    console.log(`The ${original} & ${reverse} is not palindrome.`)
 // }
-//   if(original === reverse){
-//         console.log(`The number-${reverse} is palindrome.`)
-//     }else{
-
-//       console.log(`The number-${reverse} is not palindrome.`)  
-//     };
-
-
 
 // 7. Find the factorial of a number (e.g. 5! = 1×2×3×4×5)
 
@@ -241,21 +226,74 @@
 // };
 // console.log(result);
 
-
 //5️⃣ Check if a number is prime
 
-let number = 13;
-let isPrime = true;
+// let number = 1;
+// let isPrime = true;
 
-for(let i = 2; i < number; i++){
+// for (let i = 2; i <= number - 1; i++) {
+//   if (number % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+// }
 
-if( number % i === 0){
-    isPrime = false;
-    break;
+// if (isPrime) {
+//   console.log("Prime yeyey");
+// } else {
+//   console.log("Prime nono");
+// }
+
+// Print the first 10 prime numbers.
+
+// let count = 0;
+
+// for(let i = 2; i < 200; i++){
+
+//     let isPrime = true;
+
+//     for(let j = 2; j < i; j++){
+//         if(i % j === 0){
+//             isPrime = false;
+//             break;
+//         }
+//     };
+
+//     if(isPrime){
+//         console.log(i);
+//         count++;
+//     }
+//     if(count === 10) break;
+// }
+
+//7️⃣ Fibonacci Series (first 10 terms) eg: 0,1,1,2,3,5,8,13
+
+let a = 0;
+let b= 1;
+console.log(a);
+console.log(b);
+
+
+for (let i = 3; i<11; i++){
+    
+    let next = a + b;
+    console.log(next);
+
+    a = b;
+    b = next;
 }
-}
-if(isPrime){
-    console.log("Prime")
-}else{
-    console.log("Not prime")
-}
+
+
+
+// 8️⃣ Reverse Triangle Pattern;
+
+// let num = 5;
+
+// for (i = num; i > 0; i--) {
+//   let star = "";
+
+//   for (let j = 1; j <= i; j++) {
+//     star = star + "*";
+//   }
+//   console.log(star);
+// }
