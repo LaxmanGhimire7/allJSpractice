@@ -286,14 +286,14 @@
 
 // 8️⃣ Reverse Triangle Pattern;
 
-let num = 5;
+let number = 5;
 
-
-for (let i = num; i>0; i--){
+for(let i = number; i>0; i--){
 
     let star = "";
-    for(let j =1 ; j<=i; j++ ){
-   star = star + "*"
+
+    for(let j = 1; j<=i; j++){
+        star = star + "*"
     }
     console.log(star)
 }
