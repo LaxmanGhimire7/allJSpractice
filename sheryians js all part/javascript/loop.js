@@ -119,3 +119,18 @@
 //   }
 // }
 // console.log(counter);
+
+
+
+// for(let i = 2; i<=10; i+=2){
+// console.log(i)
+// };
+
+
+// let num = -10;
+// for(let i = num; i<=10; i+=5){
+//    console.log(i)
+// }
+
+
+

@@ -228,22 +228,21 @@
 
 //5️⃣ Check if a number is prime
 
-// let number = 1;
+// let number = 19;
 // let isPrime = true;
 
-// for (let i = 2; i <= number - 1; i++) {
-//   if (number % i === 0) {
-//     isPrime = false;
-//     break;
-//   }
-// }
+// for(i = 2; i < number - 1; i++){
 
-// if (isPrime) {
-//   console.log("Prime yeyey");
-// } else {
-//   console.log("Prime nono");
+//     if(number % i === 0){
+//         isPrime = false;
+//         break;
+//     }
 // }
-
+//   if(isPrime){
+//         console.log("Prime");
+//     }else{
+//         console.log("nono")
+//     }
 // Print the first 10 prime numbers.
 
 // let count = 0;
@@ -272,9 +271,8 @@
 // console.log(a);
 // console.log(b);
 
-
 // for (let i = 3; i<11; i++){
-    
+
 //     let next = a + b;
 //     console.log(next);
 
@@ -282,17 +280,45 @@
 //     b = next;
 // }
 
+// 8️⃣ Reverse Triangle Pattern;
+
+// let number = 5;
+
+// for(let i = number; i > 0; i-- ){
+
+//     let star = "";
+
+//     for(let j = 1; j<=i; j++){
+//         star = star + "*"
+//     }
+// console.log(star)
+// }
+
+// let num = 10;
+// let isPrime = true;
+
+// for (let i = 2; i < num - 1; i++) {
+//   if (num % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+// }
+
+// if (isPrime) {
+//   console.log("prime");
+// } else {
+//   console.log("Haina");
+// }
+
 
 
 // 8️⃣ Reverse Triangle Pattern;
 
-let number = 5;
+let number = 1;
 
-for(let i = number; i>0; i--){
-
+for(let i = number; i<=0; i++){
     let star = "";
-
-    for(let j = 1; j<=i; j++){
+    for(j = 5; j>=i; j--){
         star = star + "*"
     }
     console.log(star)
