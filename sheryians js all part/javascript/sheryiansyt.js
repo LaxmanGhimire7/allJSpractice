@@ -128,7 +128,6 @@
 //   }
 // }
 
-
 // let count = 0;
 // let num = 2345644987478945;
 
@@ -138,6 +137,21 @@
 // }
 // console.log(count)    // this is to count the total numbers there = 16
 
+// function add(a="Hello",b="Laxman"){
+//   console.log(a +" "+ b)
+// }
 
+// add();
 
+// function resy(a,b,c,...val){
+// console.log(a,b,c,val)
+// }
 
+// resy(1,2,3,4,5,6,7,89)
+
+// function abcd(v) {
+//   return 12 + v;
+// }
+// let val = abcd(100);
+// console.log(val);
+  

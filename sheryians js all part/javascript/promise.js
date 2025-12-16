@@ -13,6 +13,9 @@
 //   });
 
 // fetch((`https://dummyjson.com/products`)=>{})
-let data = fetch(`https://dummyjson.com/products`)
-  .then((raw) => raw.json())
-  .then((fresh) => console.log(fresh.products[4].title));
+// let data = fetch(`https://dummyjson.com/products`)
+//   .then((raw) => raw.json())
+//   .then((fresh) => console.log(fresh.products[0].brand));
+
+
+  
