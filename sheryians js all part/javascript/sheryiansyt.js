@@ -155,3 +155,15 @@
 // let val = abcd(100);
 // console.log(val);
   
+
+
+
+// function getVal(val){
+
+//     if(val < 50) return "Hi";
+//     else if(val < 60) return "HiHi";
+//     else return "Bye"
+
+// }
+
+// console.log(getVal(50));
