@@ -121,6 +121,96 @@
 
 // q6. Extract only middle 3 from this element
 // let numbers = [1,2,3,4,5,6]
-// let newa = numbers.slice(1,4)
+// let newNum = numbers.slice(2,4)
 
-// console.log(newa)
+
+//q 7. Sort this arrya in ascending order and reverse it.
+// let names = ["Zara", "Arjun", "Mira", "Bhavya"]
+
+// let asc = names.sort();
+// console.log(asc)
+
+// let rev = asc.reverse();
+// console.log(rev)
+
+// q 8. use .ap to square each number
+
+// let arr = [1,2,3,4]
+
+// let newArrr = arr.map((val)=>{
+//     return val * val 
+// })
+
+
+// q.9 use .filter() to keep numbers greater than 10.
+
+// let arr = [5,12,8,20,3]
+
+// let nnn = arr.filter((val)=>{
+//     if(val > 10) return val;
+// })
+
+
+// q 10. use .reduce() to find the sum of the array
+//  let arr = [10,20,30]
+
+//  let final = arr.reduce((acc, val)=>{
+//   return acc + val;
+//  },0)
+
+
+
+// q . 11 use .find() to get the first number less than 10:
+
+// let arr = [12, 15, 8, 3, 18]
+
+// let finding =  arr.find((val)=>{
+//   return val<10
+// })
+
+
+// q.12 use .some() to check if any student has scored below 35:
+
+// let arr = [45, 60, 25, 90]
+
+// let uuu = arr.some((val)=>{
+//   return val < 35
+// })
+
+// q.13 Use .every() if all numbers are even
+// let arr = [2,4,6,8,10]
+
+// let j = arr.every((val)=>{
+//    return val % 2 === 0;
+// })
+
+
+// q.14 Destructure this array to get firstName and lastName:
+
+// let names = ["Harsh", "Sharma"]
+
+// let[a,b] = names;
+// console.log(a)
+// console.log(b)
+
+
+//q.15 merge 2 arrays using spread operator
+
+// let a = [1,2]
+// let b = [3,4]
+
+// let c = [...a, ...b]
+// console.log(c)
+
+
+//q 16. Ass Nepal at first using spreat operator
+
+// let countries = ["India", "USA"]
+// let newCountry = ["Nepal",...countries]
+
+// q.17 Clone this array not by reference
+// let arr = [1,2,3];
+// let arr2 = [...arr]
+// arr2.pop()
+// console.log(arr2)
+// console.log(arr)
