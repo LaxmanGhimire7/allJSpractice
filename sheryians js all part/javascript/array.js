@@ -214,3 +214,6 @@
 // arr2.pop()
 // console.log(arr2)
 // console.log(arr)
+
+
+// [100, 20, 3].sort();
