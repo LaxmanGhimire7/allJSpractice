@@ -18,11 +18,14 @@ let objs = {
     name:"Laxman Ghimire",
     age: 22,
     email: "ghimirelaxman2155@gmail.com",
-    details:{
+    detail:{
         skills: "MERN Stack",
         docker: "Hi"
     }
 }
+
+// optional chaining
+// objs?.details?.docker
 
 // let newObj = {...objs}
 // newObj.details.skills = "Django"
@@ -30,10 +33,10 @@ let objs = {
 // console.log(newObj)
 // console.log(objs)
 
-let obj2 = JSON.parse(JSON.stringify(objs))
-obj2.details.skills = "LKaxkn"
-console.log(obj2)
-console.log(objs)
+// let obj2 = JSON.parse(JSON.stringify(objs))
+// obj2.details.skills = "LKaxkn"
+// console.log(obj2)
+// console.log(objs)
 
 
 
